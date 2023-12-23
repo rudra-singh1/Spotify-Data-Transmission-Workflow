@@ -21,7 +21,7 @@ For testing purposes, we trimmed "mother tongue" full 03:37 clip to 00:05 second
 ## Step 2) Conversion of Song to Bit Stream
 Now that we had a list of numbers, we had to convert it to a list of one of those 4 samples of the QPSK constellation seen before. To do this, we can't just take the numbers and convert them, as for example -266 can't be obviously represented as one of four states, so we had to convert it to bits. Bits are a series of 0s and 1s, the same as binary. You represent numbers via a series of bits as seen here:
 
-![alt text](FiveSecondSong/Images/R.png)
+![alt text](Spotify-Data-Transmission-Workflow/Images/pic1.png)
 
 I wrote a script to turn these numbers into bits, but we had a hiccup: negative numbers. These negative numbers posed a challenge, as with our original method of translating we had no way to properly represent a negative number. I made a small change to account for this: Add a new bit to the beginning of each number that represented a sign, with 1 meaning positive and 0 being negative.
 
