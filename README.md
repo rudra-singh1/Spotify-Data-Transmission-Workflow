@@ -1,5 +1,5 @@
 # Replicating Spotify's Data Transmission Process
-The aim of this project was to emulate the transmission and reception of data through QPSK modulation, mirroring the technology used by platforms like Spotify to transmit songs over a medium. I employed a 5-second excerpt from the song "[mother tongue](https://www.youtube.com/watch?v=-aC_TSkGvPw)" by Bring Me The Horizon to do this.
+The aim of this project was to emulate the transmission and reception of data through QPSK modulation, mirroring the technology used by platforms like Spotify to transmit songs over a medium. I employed a 5-second excerpt from the song "[mother tongue](https://www.youtube.com/watch?v=-aC_TSkGvPw)" by Bring Me The Horizon to do this. Developed by Rudra Prakash Singh.
 
 ## How to Use
 * Inside the file BitStreamRepr.m, change the filename on the first line of code to a desired .wav or mp3 file, or use the included cropped song.
